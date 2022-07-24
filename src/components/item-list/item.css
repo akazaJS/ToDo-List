@@ -1,0 +1,33 @@
+.li{
+    border: #725539 2px solid;
+    border-radius: 3px;
+    width: 300px;
+    padding-top: 10px;
+    margin-top: 7px;
+    list-style-type: none;
+    background-color: #e6bc82;
+
+}
+.ots{
+    padding-left: 5px;
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+}
+.button{
+    margin-bottom: 8px;
+    margin-right: 6px;
+    background-color: #725539;
+    border: #725539 1px solid;
+    border-radius: 4px;
+    text-decoration-color: #590f2a;
+}
+.completed{
+    text-decoration-line: line-through;
+    color: #590f2a;
+}
